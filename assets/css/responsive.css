@@ -1,0 +1,122 @@
+@media(max-width:767px){
+    .section-padding{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .content{
+        position: relative;
+        width: 100%;
+        top: 0;
+        transform: none;
+        /*background: #a97158;*/
+        background: transparent linear-gradient(90deg, #FBCF45 0%, #A76429 2%, #FBCF45 50%, #F6E687 55%, #fbcf45 64%, #f7f0a0 72%, #a7782b 76%, #FFC20E 83%, #FFC20E 98%, #FFC20E 100%) 0% 0% no-repeat padding-box; -webkit-text-fill-color: transparent; 
+                    -webkit-background-clip: text; 
+
+    }
+    .content p, .your-home .section-title p{
+        font-size: 28px;
+    }
+    .your-home .section-title{
+        width: 100%;
+    }
+    .claim-wrap{
+        padding: 50px 20px;
+    }
+    .submit-btn{
+        /* padding: 5px; */
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .footer-txt h3{
+        font-size: 16px;
+    }
+    .upcoming .section-title h2{
+        text-align: center;
+        font-weight: 300;
+        font-size: 3rem;
+    }
+
+    #dev.section-title h2 {
+        font-size: 32px;
+        padding-top:10px;
+    }
+
+    footer#footer {
+          /* height: 90vh!important; */
+        }
+
+    .section-title h2{
+        font-size: 2rem!important;
+    }
+
+    .content h3 {
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .upcoming .section-title p{
+        margin-bottom: 10px;
+    }
+    .swiper.banner-slider .swiper-button-next, .swiper.banner-slider .swiper-button-prev, 
+    .swiper-button-next, .swiper-button-prev {
+        width: auto;
+      }
+      .swiper.banner-slider .swiper-button-next, 
+      .swiper-button-next {
+        right:0px;
+    }
+    .swiper.banner-slider .swiper-button-prev, 
+    .swiper-button-prev {
+        left:0px;
+    }
+    .call-btn {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: fit-content;
+    }
+    .whatsapp-btn{        
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: fit-content;
+    }
+    .back-to-top {
+        bottom: 60px;
+    }
+    .enquireNowSideFormBtn{
+        position: fixed;
+        bottom: 0;
+        right:38px;
+        left: 38px;
+        width: auto;
+        top: auto;
+    transform: none;
+        border-radius: 0px;
+    height: 48px;
+    text-align: center;
+        z-index: 999;
+    }
+    .enquireNowSideFormBtn p {
+    padding-top: 6px;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+
+}
+
+#banner img{
+    height: auto;
+}
+
+#footer .d-flex{
+    flex-direction: column;
+}
+
+.footer-txt {
+    padding-bottom: 1rem;
+}
+
+}

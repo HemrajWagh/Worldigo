@@ -1,0 +1,8 @@
+# Disable script execution in assets
+<FilesMatch "\.(phar|phtml|cgi|pl|exe|sh|py|jsp|asp|aspx)$">
+    Deny from all
+</FilesMatch>
+
+# Prevent Apache from treating files as scripts
+RemoveHandler .php .phar .phtml .cgi .pl .exe .sh .py .jsp .asp .aspx
+RemoveType .php .phar .phtml .cgi .pl .exe .sh .py .jsp .asp .aspx
