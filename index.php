@@ -195,10 +195,10 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <!-- <li><a class="nav-link scrollto active" href="index">HOME</a></li>
-                    <li><a class="nav-link   scrollto" href="#iconic-life">ABOUT</a></li>
-                    <li><a class="nav-link scrollto" href="#about">PROJECTS</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li> -->
+                    <li><a class="nav-link scrollto active" href="index">HOME</a></li>
+                    <li><a class="nav-link   scrollto" href="#iconic-life">ABOUT US</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#about">PROJECTS</a></li> -->
+                    <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -388,7 +388,7 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
                               class="img-fluid d-none d-lg-block" alt="">
                           <img style="position: relative;" src="assets/img/banner/Wordigo-Banner_456-x-900.jpg"
                               class="img-fluid b-block d-lg-none" alt="">
-                              <h1 style="position: relative;font-family: 'Whipsnapper-Regular';color: red;font-size: 11rem; right: 700px; top: -160px; letter-spacing: 13px; " >India</h1>
+                              <h1 style="position: relative;font-family: 'Whipsnapper-Regular';color: red; font-size: 11rem; font-weight: 800; right: 700px; top: -160px; letter-spacing: 13px; " >India</h1>
                       </div>
                   </div>
               </div>
@@ -466,7 +466,7 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
      </section> -->
          <!-- <div class="nav-line"></div> -->
 
-         <!--
+         
                         <script>
                             gsap.to("#rotating-img", {
                             rotation: 360,          // full rotation
@@ -652,52 +652,245 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
 
 
 
-        <!-- <section id="iconic-life" class="iconic-life section-padding">
+         <section id="iconic-life" class="iconic-life section-padding">
           <div class="row no-gutters" style="margin: 0;">
-            <div class="col-sm-6 iconic-left" style="padding: 0; overflow: hidden;">
-              <img src="assets/img/banner/Dastak_Left.jpg" class="img-fluid w-100" alt=" Kumar Corp Ki Dastak | 59th Anniversary Offer | 2 BHK in Magarpatta">
+            <div class="col-sm-6 iconic-left" style="; overflow: hidden;">
+              <img src="assets/img/banner/india.png" class="img-fluid w-100" alt="World I Go">
             </div>
-            <div class="col-sm-6 iconic-right" style="padding: 0;overflow: hidden;">
-              <img src="assets/img/banner/Dastak_Right.jpg" class="img-fluid w-100" alt="Kumar Corp Ki Dastak | 59th Anniversary Offer | 2 BHK in Undri">
+            <div class="col-sm-6 iconic-right" style=";overflow: hidden;">
+                <div class="india-content" style="margin-bottom:5rem ;">
+                    <h1 style="font-family: 'Whipsnapper-Regular';font-size: 5rem;color:white; display:flex;justify-content: center;align-items: center;flex-direction: column;">GAME ON !</h1>
+                    <h2 style="font-family: 'Whipsnapper-Regular';font-size: 5rem;color:white; display:flex;justify-content: center;align-items: center;flex-direction: column;">Play it. Know it. Win it</h2>
+                </div>
+                <div class="india-content" style="display:flex;justify-content: center;align-items: center;flex-direction: column;display: flex;">
+                    <h2 style="font-family: 'Whipsnapper-Regular';font-size: 4rem; color:white;">What's the Game?</h2>
+                    <p style="font-family: 'Montserrat';font-size: 1.5rem;color:#eb9d22; font-style: italic;">Throw. Pick. Build your set.</p>
+                    <p style="font-family: 'Montserrat';font-size: 1.5rem; color:#eb9d22; font-style: italic; margin-top: -1.5rem ;">Create a set & race to finish first.</p>
+                    <h6 style="font-family: 'Montserrat';font-size: 1.5rem; color:#eb9d22; font-style: italic; display: flex; align-items: center; justify-content: center;" >The Twist? Wild Cards ask you a question. Get it right, and <br> you unlock a lucky card that fits anywhere you want.</h6>
+                </div>
+
+              <!-- <img src="assets/img/banner/Dastak_Right.jpg" class="img-fluid w-100" alt="Kumar Corp Ki Dastak | 59th Anniversary Offer | 2 BHK in Undri"> -->
             </div>
           </div>
-        </section> -->
+        </section>
+
+
+         <section id="iconic-life" class="iconic-life section-padding">
+          <div class="row no-gutters" style="margin: 0;">
+            
+            <div class="col-sm-6 iconic-right" style=";overflow: hidden;">
+
+                <div class="state-list" style="display:flex; justify-content: center;align-items: center;">
+                    <ul style="padding:3rem;color:white;">
+                        <div>
+                            <h2>Explore India</h2>
+                            <p>Nature Landscapes Adventure</p>
+                        </div>
+                        <li>Ladakh</li>
+                        <li>Assam</li>
+                        <li>Kerala</li>
+                        <li>Karnataka</li>
+                        <li>Lakshadweep</li>
+                        <li>Uttarakhand</li>
+                        <li>Jammu & Kashimir</li>
+                        <li>Madya Pradesh</li>
+                    </ul>
+                    <ul style="padding:3rem; color:white;">
+                        <div>
+                            <h2>Experience India</h2>
+                            <p>Culture Food Heritage</p>
+                        </div>
+                        <li>Punjab</li>
+                        <li>Gujarat</li>
+                        <li>Rajastan</li>
+                        <li>Karnataka</li>
+                        <li>Maharashtra</li>
+                        <li>Tamil Nadu</li>
+                        <li>West Begal</li>
+                        <li>Andra Pradesh</li>
+                        <li>Utter Pradesh</li>
+                    </ul>  
+                </div>
+
+              <!-- <img src="assets/img/banner/Dastak_Right.jpg" class="img-fluid w-100" alt="Kumar Corp Ki Dastak | 59th Anniversary Offer | 2 BHK in Undri"> -->
+            </div>
+            <div class="col-sm-6 iconic-right" style="; overflow: hidden;">
+              <img src="assets/img/banner/india.png" class="img-fluid w-100" alt="World I Go">
+            </div>
+          </div>
+        </section>
+
+        <!-- background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+        background-position:  7px 0, 7px 0, 0 0, 0 0;
+        background-size: 14px 14px;
+        background-repeat: repeat; -->
+
+
+      <section class="legacy-section" style="background-color: #faa61a">
+        <div style="
+      background-color: #faa61a;
+      opacity: 0.8;
+      background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+      background-position:  7px 0, 7px 0, 0 0, 0 0;
+      background-size: 14px 14px;
+      background-repeat: repeat;padding: .5rem;"></div>
+
+
+        <div style="
+      background-color: #faa61a;
+      opacity: 0.8;
+      background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+      background-position:  7px 0, 7px 0, 0 0, 0 0;
+      background-size: 14px 14px;
+      background-repeat: repeat;padding: .5rem;"></div>
 
 
 
-     <!--  <section class="legacy-section">
+        <div style="background-color: #faa61a;
+        opacity: 0.8;
+        background-image:  linear-gradient(135deg, #0f56b7 25%, transparent 25%), linear-gradient(225deg, #0f56b7 25%, transparent 25%), linear-gradient(45deg, #0f56b7 25%, transparent 25%), linear-gradient(315deg, #0f56b7 25%, #e5e5f7 25%);
+        background-position:  7px 0, 7px 0, 0 0, 0 0;
+        background-size: 14px 14px;
+        background-repeat: repeat;padding: .5rem;"></div>
+
+
+        <div style="background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #de1208 25%, transparent 25%), linear-gradient(225deg, #de1208 25%, transparent 25%), linear-gradient(45deg, #de1208 25%, transparent 25%), linear-gradient(315deg, #de1208 25%, #e5e5f7 25%);
+background-position:  7px 0, 7px 0, 0 0, 0 0;
+background-size: 14px 14px;
+background-repeat: repeat;padding: .5rem;"></div>
+
+
+        <div style="background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #ec7317 25%, transparent 25%), linear-gradient(225deg, #ec7317 25%, transparent 25%), linear-gradient(45deg, #ec7317 25%, transparent 25%), linear-gradient(315deg, #ec7317 25%, #e5e5f7 25%);
+background-position:  7px 0, 7px 0, 0 0, 0 0;
+background-size: 14px 14px;
+background-repeat: repeat;padding: .5rem;"></div>
+
+
+
+        <div style="background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #8f7866 25%, transparent 25%), linear-gradient(225deg, #8f7866 25%, transparent 25%), linear-gradient(45deg, #8f7866 25%, transparent 25%), linear-gradient(315deg, #8f7866 25%, #e5e5f7 25%);
+background-position:  7px 0, 7px 0, 0 0, 0 0;
+background-size: 14px 14px;
+background-repeat: repeat;padding: .5rem;"></div>
+
+
+      <div style="
+      background-color: #faa61a;
+      opacity: 0.8;
+      background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+      background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+      background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+      background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+      background-position:  7px 0, 7px 0, 0 0, 0 0;
+      background-size: 14px 14px;
+      background-repeat: repeat; padding: .5rem;"></div>
+      </section>
+
+
+      <section class="legacy-section" style="background-color:#d23527" 
+      >
         <h2 class="legacy-heading">A PROFOUND LEGACY</h2>
         <div class="container legacy-container">
-          <div class="row">
+          <div class="row" style="display:flex;justify-content: center;align-items: center;">
             <div class="col-12 col-sm-6 col-lg-3 mb-4 legacy-box">
               <div class="legacy-icon"><i class="fas fa-building"></i></div>
-              <div class="legacy-number" data-count="140">0</div>
-              <p class="legacy-description">landmark projects across 36+ million sq. ft constructed.</p>
+              <div class="legacy-number" data-count="140"style="font-family: 'Whipsnapper-Regular';font-size: 5rem;color:white;">172</div>
+              <p class="legacy-description"style="font-family: 'Whipsnapper-Regular';font-size: 3rem;color:white;">Cards</p>
             </div>
             <div class="col-12 col-sm-6 col-lg-3 mb-4 legacy-box">
               <div class="legacy-icon"><i class="fas fa-users"></i></div>
-              <div class="legacy-number" data-count="42000">0</div>
-              <p class="legacy-description">families from diverse socio-economic and cultural backgrounds live in our residential communities.</p>
+              <div class="legacy-number" data-count="42000"style="font-family: 'Whipsnapper-Regular';font-size: 5rem;color:white;">2</div>
+              <p class="legacy-description"style="font-family: 'Whipsnapper-Regular';font-size: 3rem;color:white;">Sets</p>
             </div>
             <div class="col-12 col-sm-6 col-lg-3 mb-4 legacy-box">
               <div class="legacy-icon"><i class="fas fa-briefcase"></i></div>
-              <div class="legacy-number" data-count="1000">0</div>
-              <p class="legacy-description">businesses, from ambitious startups to established enterprises, operate out of our dynamic commercial spaces.</p>
+              <div class="legacy-number" data-count="1000"style="font-family: 'Whipsnapper-Regular';font-size: 5rem;color:white;">8</div>
+              <p class="legacy-description"style="font-family: 'Whipsnapper-Regular';font-size: 3rem;color:white;">States - 10 cards each</p>
             </div>
             <div class="col-12 col-sm-6 col-lg-3 mb-4 legacy-box">
               <div class="legacy-icon"><i class="fas fa-certificate"></i></div>
-              <div class="legacy-number" data-count="15">0</div>
-              <p class="legacy-description">ongoing projects, each thoughtfully envisioned for the future.</p>
+              <div class="legacy-number" data-count="15"style="font-family: 'Whipsnapper-Regular';font-size: 5rem;color:white;">5</div>
+              <p class="legacy-description"style="font-family: 'Whipsnapper-Regular';font-size: 3rem;color:white;">Wild Cards & 1 Lucky Card each</p>
             </div>
           </div>
         </div>
       </section>
 
 
+            <section class="legacy-section" style="background-color: #faa61a">
+              <div style="
+            background-color: #faa61a;
+            opacity: 0.8;
+            background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+            background-position:  7px 0, 7px 0, 0 0, 0 0;
+            background-size: 14px 14px;
+            background-repeat: repeat;padding: .5rem;"></div>
+
+
+              <div style="
+            background-color: #faa61a;
+            opacity: 0.8;
+            background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+            background-position:  7px 0, 7px 0, 0 0, 0 0;
+            background-size: 14px 14px;
+            background-repeat: repeat;padding: .5rem;"></div>
 
 
 
-             <script src="https://kit.fontawesome.com/a2e8c0bbde.js" crossorigin="anonymous"></script> -->
+              <div style="background-color: #faa61a;
+              opacity: 0.8;
+              background-image:  linear-gradient(135deg, #0f56b7 25%, transparent 25%), linear-gradient(225deg, #0f56b7 25%, transparent 25%), linear-gradient(45deg, #0f56b7 25%, transparent 25%), linear-gradient(315deg, #0f56b7 25%, #e5e5f7 25%);
+              background-position:  7px 0, 7px 0, 0 0, 0 0;
+              background-size: 14px 14px;
+              background-repeat: repeat;padding: .5rem;"></div>
+
+
+              <div style="background-color: #e5e5f7;
+      opacity: 0.8;
+      background-image:  linear-gradient(135deg, #de1208 25%, transparent 25%), linear-gradient(225deg, #de1208 25%, transparent 25%), linear-gradient(45deg, #de1208 25%, transparent 25%), linear-gradient(315deg, #de1208 25%, #e5e5f7 25%);
+      background-position:  7px 0, 7px 0, 0 0, 0 0;
+      background-size: 14px 14px;
+      background-repeat: repeat;padding: .5rem;"></div>
+
+
+              <div style="background-color: #e5e5f7;
+      opacity: 0.8;
+      background-image:  linear-gradient(135deg, #ec7317 25%, transparent 25%), linear-gradient(225deg, #ec7317 25%, transparent 25%), linear-gradient(45deg, #ec7317 25%, transparent 25%), linear-gradient(315deg, #ec7317 25%, #e5e5f7 25%);
+      background-position:  7px 0, 7px 0, 0 0, 0 0;
+      background-size: 14px 14px;
+      background-repeat: repeat;padding: .5rem;"></div>
+
+
+
+              <div style="background-color: #e5e5f7;
+      opacity: 0.8;
+      background-image:  linear-gradient(135deg, #8f7866 25%, transparent 25%), linear-gradient(225deg, #8f7866 25%, transparent 25%), linear-gradient(45deg, #8f7866 25%, transparent 25%), linear-gradient(315deg, #8f7866 25%, #e5e5f7 25%);
+      background-position:  7px 0, 7px 0, 0 0, 0 0;
+      background-size: 14px 14px;
+      background-repeat: repeat;padding: .5rem;"></div>
+
+
+            <div style="
+            background-color: #faa61a;
+            opacity: 0.8;
+            background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+            background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+            background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+            background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+            background-position:  7px 0, 7px 0, 0 0, 0 0;
+            background-size: 14px 14px;
+            background-repeat: repeat; padding: .5rem;"></div>
+            </section>
+
+
+             <script src="https://kit.fontawesome.com/a2e8c0bbde.js" crossorigin="anonymous"></script>
 
 
    <!-- <section id="iconic-life" class="iconic-life section-padding" style="padding: 0; margin: 5rem;" >
@@ -984,7 +1177,70 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
     </section>
 
 
+          <section class="legacy-section" style="background-color: #faa61a">
+            <div style="
+          background-color: #faa61a;
+          opacity: 0.8;
+          background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+          background-position:  7px 0, 7px 0, 0 0, 0 0;
+          background-size: 14px 14px;
+          background-repeat: repeat;padding: .5rem;"></div>
 
+
+            <div style="
+          background-color: #faa61a;
+          opacity: 0.8;
+          background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+          background-position:  7px 0, 7px 0, 0 0, 0 0;
+          background-size: 14px 14px;
+          background-repeat: repeat;padding: .5rem;"></div>
+
+
+
+            <div style="background-color: #faa61a;
+            opacity: 0.8;
+            background-image:  linear-gradient(135deg, #0f56b7 25%, transparent 25%), linear-gradient(225deg, #0f56b7 25%, transparent 25%), linear-gradient(45deg, #0f56b7 25%, transparent 25%), linear-gradient(315deg, #0f56b7 25%, #e5e5f7 25%);
+            background-position:  7px 0, 7px 0, 0 0, 0 0;
+            background-size: 14px 14px;
+            background-repeat: repeat;padding: .5rem;"></div>
+
+
+            <div style="background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #de1208 25%, transparent 25%), linear-gradient(225deg, #de1208 25%, transparent 25%), linear-gradient(45deg, #de1208 25%, transparent 25%), linear-gradient(315deg, #de1208 25%, #e5e5f7 25%);
+    background-position:  7px 0, 7px 0, 0 0, 0 0;
+    background-size: 14px 14px;
+    background-repeat: repeat;padding: .5rem;"></div>
+
+
+            <div style="background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #ec7317 25%, transparent 25%), linear-gradient(225deg, #ec7317 25%, transparent 25%), linear-gradient(45deg, #ec7317 25%, transparent 25%), linear-gradient(315deg, #ec7317 25%, #e5e5f7 25%);
+    background-position:  7px 0, 7px 0, 0 0, 0 0;
+    background-size: 14px 14px;
+    background-repeat: repeat;padding: .5rem;"></div>
+
+
+
+            <div style="background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #8f7866 25%, transparent 25%), linear-gradient(225deg, #8f7866 25%, transparent 25%), linear-gradient(45deg, #8f7866 25%, transparent 25%), linear-gradient(315deg, #8f7866 25%, #e5e5f7 25%);
+    background-position:  7px 0, 7px 0, 0 0, 0 0;
+    background-size: 14px 14px;
+    background-repeat: repeat;padding: .5rem;"></div>
+
+
+          <div style="
+          background-color: #faa61a;
+          opacity: 0.8;
+          background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
+          background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+          background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+          background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
+          background-position:  7px 0, 7px 0, 0 0, 0 0;
+          background-size: 14px 14px;
+          background-repeat: repeat; padding: .5rem;"></div>
+          </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -1194,8 +1450,9 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
                        <a href="https://www.youtube.com/channel/UCSfnHQmlu8aEC64uXm9npIQ" class="footer-icon"><i class="fab fa-youtube"></i></a>
                      </div>
                      <div class="footer-note small text-muted">
-                       All projects have been registered via MahaRERA and are available at 
-                       <a href="https://maharera.maharashtra.gov.in" target="_blank">maharera.maharashtra.gov.in</a>
+                        @ 2026 Worldigo. All rights reserved.
+                       <!-- All projects have been registered via MahaRERA and are available at  -->
+                       <!-- <a href="https://maharera.maharashtra.gov.in" target="_blank">maharera.maharashtra.gov.in</a> -->
                      </div>
                    </div>
                  </div>
@@ -2209,7 +2466,7 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
 });
 </script> -->
 
-<script>
+<!-- <script>
   gsap.registerPlugin(ScrollTrigger);
 
   gsap.fromTo(".iconic-left img", 
@@ -2255,7 +2512,7 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
       }
     }
   );
-</script>
+</script> -->
 
 <!-- <script>
   gsap.registerPlugin(ScrollTrigger);
@@ -2557,7 +2814,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
     });
   </script>
 
-  <script>
+  <!-- <script>
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.fromTo(".iconic-left img", 
@@ -2603,7 +2860,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
         }
       }
     );
-  </script>
+  </script> -->
 
   <script>
     gsap.registerPlugin(ScrollTrigger);

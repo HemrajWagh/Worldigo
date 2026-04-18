@@ -179,10 +179,11 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-/*  background: rgba(40, 58, 90, 0.9);*/
-  /*background: #a97158;*/
-  background: #fffffff;
-/*  background: #fff;*/
+  /*background: rgba(40, 58, 90, 0.9);*/
+  /*background: rgba(4, 5, 9, 0.9);*/
+  /*background: #d23527;*/
+  /*background: #fffffff;*/
+  /*background: #fff;*/
 }
 
 #header .logo {
@@ -237,7 +238,8 @@ h6 {
 /*color: #CE181E!important;*/
 /*  color: #b4844f!important;*/
   /*color: #ffffff!important;*/
-  color: #606060!important;
+  /*color: #606060!important;*/
+  color: #d23527!important;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -254,8 +256,9 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-/*  color: #B18740;*/
-  color: #000000!important;
+  /*color: #ffffff;*/
+  /*color: #B18740;*/
+  color: #FFFFFF!important;
   font-weight: 600;
 }
 
@@ -755,8 +758,8 @@ button.btn-close {
 /* CSS START */
 
 .section-padding{
-   padding-top: 40px; 
-   padding-bottom: 40px; 
+   /*padding-top: 40px; */
+   /*padding-bottom: 40px; */
 }
 .nav-line {
 /*  background: transparent linear-gradient(90deg, #FFD8C6 0%, #FFBD80 42%, #92804F 50%, #AA8852 55%, #D89958 64%, #F4A45B 72%, #FFA85D 76%, #FFB06C 83%, #FFC595 98%, #FFC99D 100%) 0% 0% no-repeat padding-box;*/
@@ -900,7 +903,8 @@ span.line {
 .iconic-life{
   /*background: #FFEDDD 0% 0% no-repeat padding-box;*/
   /*background: #ffffff 0% 0% no-repeat padding-box;*/
-  background: #faa61a 0% 0% no-repeat padding-box;
+  /*background: #faa61a 0% 0% no-repeat padding-box;*/
+  background: #d23527 0% 0% no-repeat padding-box;
   /*padding: 0; margin: 5rem;*/
 }
 
@@ -909,7 +913,7 @@ span.line {
       justify-content: center;
       align-items: center;
           justify-content: flex-end;
-      margin: 4rem 3rem;
+      /*margin: 4rem 3rem;*/
 /*      flex-direction: column-reverse;*/
 }
 
@@ -1807,7 +1811,8 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     border-radius: 16px;
   }
   .iconic-life{
-    padding: 0; margin: 1.5rem!important;
+    padding: 0; 
+    /*margin: 1.5rem!important;*/
 
   }
   .mobile {
@@ -2091,7 +2096,7 @@ i.fa-solid:hover {
     }
 
     .legacy-container {
-      border: 1px solid #ccc;
+      /*border: 1px solid #ccc;*/
       padding: 5rem 1rem 3rem 1rem;
     }
 
