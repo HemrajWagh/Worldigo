@@ -1,4 +1,5 @@
 "use client";
+import { Content } from "next/font/google";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,324 +11,15 @@ export default function Home() {
     // </div>
 
     <>
-  {/*?php
-
-session_start();
-$allErrs = $name = $nameErr = $tym = $tymErr = $email = $emailErr = $phone = $phoneErr = $message = $messageErr = $project = $projectErr = $pidTESTErr = $project_name = "";
-if (isset($_SESSION['errors'])) {
-  $allErrs = $_SESSION['errors'];
-}
-
-if (isset($_SESSION['postval'])) {
-  $allpostval = $_SESSION['postval'];
-}
-
-if (isset($allpostval['name'])) {
-  $name = $allpostval['name'];
-}
-
-if (isset($allpostval['email'])) {
-  $email = $allpostval['email'];
-}
-
-if (isset($allpostval['phone'])) {
-  $phone = $allpostval['phone'];
-}
-
-if (isset($allpostval['message'])) {
-  $message = $allpostval['message'];
-}
-
-if (isset($allpostval['tym'])) {
-  $tym = $allpostval['tym'];
-}
-
-if (isset($allpostval['project'])) {
-  $project = $allpostval['project'];
-}
-
-
-if (isset($allErrs['name'])) {
-  $nameErr = $allErrs['name'];
-}
-
-if (isset($allErrs['email'])) {
-  $emailErr = $allErrs['email'];
-}
-
-
-if (isset($allErrs['phone'])) {
-  $phoneErr = $allErrs['phone'];
-}
-
-
-if (isset($allErrs['tym'])) {
-  $tymErr = $allErrs['tym'];
-}
-
-
-if (isset($allErrs['message'])) {
-  $messageErr = $allErrs['message'];
-}
-
-if (isset($allErrs['pid'])) {
-  $projectErr = $allErrs['pid'];
-}
-
-if (isset($allErrs['pidTEST'])) {
-  $pidTESTErr = $allErrs['pidTEST'];
-}
-
-
-if (empty($_SESSION['csrf_token'])) {
-  $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
-}
-
-$_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
-
-?*/}
-  <meta charSet="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  {/* Google tag (gtag.js) */}
-  <meta charSet="utf-8" />
-  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-  />
-  <title>World I GO</title>
-  <meta name="description" content="  " />
-  {/* <link rel="icon" href="/favicon.ico" type="image/x-icon"> */}
-  <link
-    rel="stheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-  <link
-    rel="preload"
-    as="image"
-    href="/img/banner/BG-1diwali-tak_final.jpg"
-  />
-  <link rel="stylesheet" href="/css/intlTelInput.css" />
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        '.img-container {\n    position: relative;\n    overflow: hidden;\n    width:100%;\n    max-width:800px;\n    img {\n      width: 100%;\n      // position: absolute;\n      opacity: 0;\n    }\n\n    &:after {\n      content: "";\n      position: absolute;\n      width: 100%;\n      height: 0%;\n      bottom: 0;\n      left: 0;\n      background: #000000;\n    }'
-    }}
-  />
-  {/* components CSS Files */}
-  <link
-    href="/components/bootstrap/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <link
-    href="/components/bootstrap-icons/bootstrap-icons.css"
-    rel="stylesheet"
-  />
-  <link
-    href="/components/glightbox/css/glightbox.min.css"
-    rel="stylesheet"
-  />
-  {/* <link href="public/components/swiper/swiper-bundle.min.css" rel="stylesheet"> */}
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  />
-  {/* Template Main CSS File */}
-  <link href="/css/style.css" rel="stylesheet" />
-  <link href="/css/responsive.css" rel="stylesheet" />
-  {/* GSAP  */}
-  {/*  */}
-  {/*  */}
-  {/*  */}
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-  <meta
-    name="facebook-domain-verification"
-    content="ujavrbf093f98l7686nuzx7tnaglvu"
-  />
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n      @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');\n    "
-    }}
-  />
   
 
-
-  <header id="header" className="fixed-top ">
-    <div className="container d-flex align-items-center">
-      <a href="index.php" className="logo " style={{ marginRight: "auto" }}>
-        <img
-          src="/img/Final_Logo.png"
-          alt="World I Go"
-          className="img-fluid"
-        />
-      </a>
-      <nav id="navbar" className="navbar">
-        <ul>
-          <li>
-            <a className="nav-link scrollto active" href="#banner">
-              HOME
-            </a>
-          </li>
-          <li>
-            <a className="nav-link   scrollto" href="#worldigo-section">
-              ABOUT US
-            </a>
-          </li>
-          {/* <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li> */}
-        </ul>
-        <i className="bi bi-list mobile-nav-toggle" />
-      </nav>
-    </div>
-  </header>
-  {/* <div class="nav-line"></div> */}
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n    .animate__bounceIn {\n      -webkit-animation-duration: .75s !important;\n      animation-duration: .75s;\n      -webkit-animation-duration: calc(var(--animate-duration) * 0.75) !important;\n      animation-duration: calc(var(--animate-duration) * 1.75) !important;\n      -webkit-animation-name: bounceIn !important;\n      animation-name: bounceIn !important;\n      animation-iteration-count: infinite !important;\n    }\n\n    canvas {\n      display: block;\n    }\n    #canvas {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      pointer-events: none; /* don’t block clicks */\n      z-index: 1; /* keep behind content */\n    }\n\n    .banner-content {\n      position: relative;\n      z-index: 2; /* ensures content stays above fireworks */\n    }\n\n\n  "
-    }}
-  />
+  
+  
+  
   <main id="main">
-    {/* <style>
-      #thankyou-banner {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        background: radial-gradient(circle at 30% 20%, #160c2a, #000);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-      }
-
-      #thankyou-banner canvas {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-      }
-
-      .banner-overlay {
-        position: absolute;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.45);
-        z-index: 1;
-      }
-
-      .thankyou-content {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        padding: 2rem;
-      }
-
-      .thankyou-title {
-        font-size: 3rem;
-        font-weight: 800;
-        text-transform: uppercase;
-        background: linear-gradient(90deg, #ffb347, #ffcc33);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin: 1rem 0;
-      }
-
-      .thankyou-text {
-        font-size: 1.3rem;
-        color: #f8f8f8;
-        line-height: 1.6;
-      }
-
-      .thankyou-btn {
-        display: inline-block;
-        margin-top: 1.8rem;
-        padding: 0.9rem 2rem;
-        border-radius: 50px;
-        font-weight: 600;
-        text-transform: uppercase;
-        background: linear-gradient(90deg, #f7971e, #ffd200);
-        color: #111;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        box-shadow: 0 0 15px rgba(255, 213, 0, 0.6);
-      }
-      .thankyou-btn:hover {
-        background: linear-gradient(90deg, #ffd200, #f7971e);
-        transform: scale(1.05);
-      }
-
-      /* Decorative glowing orbs * /
-      .decor {
-        position: absolute;
-        mix-blend-mode: color-dodge;
-        opacity: 0.3;
-      }
-      .decor-left {
-        left: 5%;
-        top: 10%;
-        max-width: 250px;
-      }
-      .decor-right {
-        right: 5%;
-        bottom: 10%;
-        max-width: 400px;
-      }
-
-      @media (max-width: 992px) {
-          .thankyou-title {
-              font-size: 2rem;
-          }
-          .thankyou-btn {
-            padding: 0.5rem 1.6rem;
-          }
-      }
-
-  </style>
- <section id="thankyou-banner" class="banner">
-   <div class="banner-overlay"></div>
-   <canvas id="canvas-thankyou"></canvas>
-
-   <div class="banner-content thankyou-content">
-     <div class="logo-wrapper">
-       <img
-         src="assets/img/banner/Asset 1.png"
-         alt="Kumar Corp"
-         class="img-fluid logo-img"
-         style="filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); max-width:250px;"
-       />
-     </div>
-
-     <h1 class="thankyou-title">Thank You for the Amazing Response!</h1>
-     <p class="thankyou-text">
-       Our Diwali offer has now closed.<br />
-       Stay tuned for more exciting launches from <strong>Kumar Corp</strong>.
-     </p>
-
-     <a href="https://kumarcorp.kumarworld.com/projects" class="thankyou-btn">
-       Explore Ongoing Projects
-     </a>
-   </div>
-
-   <img
-     src="assets/img/banner/Asset_9 (11).png"
-     class="decor decor-left"
-     alt=""
-   />
-   <img
-     src="assets/img/banner/Asset_9 (22).png"
-     class="decor decor-right"
-     alt=""
-   />
- </section> */}
+  
     <div className="nav-line" />
+
     <section id="banner" className="banner">
       <div className="swiper banner-slider">
         <div className="swiper-wrapper">
@@ -464,10 +156,6 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
         {/* Image */}
         <div className="iconic-image">
           <img src="/img/banner/india.png" alt="World I Go" />
-          {/* Floating Elements */}
-          {/* <div class="floating token1">🎯</div>
-         <div class="floating token2">🃏</div>
-         <div class="floating token3">🎲</div> */}
         </div>
         {/* Content */}
         <div className="iconic-content">
@@ -489,105 +177,11 @@ $_SESSION['form_submission_id'] = bin2hex(random_bytes(16));
         </div>
       </div>
     </section>
+
     <section className="pattern-strip" />
-    <section className="legacy-section">
-      <h2 className="legacy-heading">Contents</h2>
-      <div className="legacy-container">
-        <div className="legacy-grid">
-          <div className="legacy-card">
-            <i className="fas fa-layer-group" />
-            <h3>172</h3>
-            <p>Cards</p>
-          </div>
-          <div className="legacy-card">
-            <i className="fas fa-box" />
-            <h3>2</h3>
-            <p>Sets</p>
-          </div>
-          <div className="legacy-card">
-            <i className="fas fa-map-marked-alt" />
-            <h3>16</h3>
-            <p>States (10 categories each)</p>
-          </div>
-          <div className="legacy-card">
-            <i className="fas fa-star" />
-            <h3>5</h3>
-            <p>Wild Cards + 1 Lucky Card</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="pattern-strip" />
-    {/* background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
-  background-position:  7px 0, 7px 0, 0 0, 0 0;
-  background-size: 14px 14px;
-  background-repeat: repeat; */}
-    {/*   <section class="legacy-section" style="background-color: #faa61a">
-  <div style="
-background-color: #faa61a;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
-background-position:  7px 0, 7px 0, 0 0, 0 0;
-background-size: 14px 14px;
-background-repeat: repeat;padding: .5rem;"></div>
-
-
-  <div style="
-background-color: #faa61a;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
-background-position:  7px 0, 7px 0, 0 0, 0 0;
-background-size: 14px 14px;
-background-repeat: repeat;padding: .5rem;"></div>
-
-
-
-  <div style="background-color: #faa61a;
-  opacity: 0.8;
-  background-image:  linear-gradient(135deg, #0f56b7 25%, transparent 25%), linear-gradient(225deg, #0f56b7 25%, transparent 25%), linear-gradient(45deg, #0f56b7 25%, transparent 25%), linear-gradient(315deg, #0f56b7 25%, #e5e5f7 25%);
-  background-position:  7px 0, 7px 0, 0 0, 0 0;
-  background-size: 14px 14px;
-  background-repeat: repeat;padding: .5rem;"></div>
-
-
-  <div style="background-color: #e5e5f7;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #de1208 25%, transparent 25%), linear-gradient(225deg, #de1208 25%, transparent 25%), linear-gradient(45deg, #de1208 25%, transparent 25%), linear-gradient(315deg, #de1208 25%, #e5e5f7 25%);
-background-position:  7px 0, 7px 0, 0 0, 0 0;
-background-size: 14px 14px;
-background-repeat: repeat;padding: .5rem;"></div>
-
-
-  <div style="background-color: #e5e5f7;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #ec7317 25%, transparent 25%), linear-gradient(225deg, #ec7317 25%, transparent 25%), linear-gradient(45deg, #ec7317 25%, transparent 25%), linear-gradient(315deg, #ec7317 25%, #e5e5f7 25%);
-background-position:  7px 0, 7px 0, 0 0, 0 0;
-background-size: 14px 14px;
-background-repeat: repeat;padding: .5rem;"></div>
-
-
-
-  <div style="background-color: #e5e5f7;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #8f7866 25%, transparent 25%), linear-gradient(225deg, #8f7866 25%, transparent 25%), linear-gradient(45deg, #8f7866 25%, transparent 25%), linear-gradient(315deg, #8f7866 25%, #e5e5f7 25%);
-background-position:  7px 0, 7px 0, 0 0, 0 0;
-background-size: 14px 14px;
-background-repeat: repeat;padding: .5rem;"></div>
-
-
-<div style="
-background-color: #faa61a;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #376809 25%, transparent 25%), linear-gradient(225deg, #376809 25%, transparent 25%), linear-gradient(45deg, #376809 25%, transparent 25%), linear-gradient(315deg, #376809 25%, #e5e5f7 25%);
-background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
-background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
-background-image:  linear-gradient(135deg, #f74567 25%, transparent 25%), linear-gradient(225deg, #f74567 25%, transparent 25%), linear-gradient(45deg, #f74567 25%, transparent 25%), linear-gradient(315deg, #f74567 25%, #e5e5f7 25%);
-background-position:  7px 0, 7px 0, 0 0, 0 0;
-background-size: 14px 14px;
-background-repeat: repeat; padding: .5rem;"></div>
-</section> */}
+    
+    
+   
     {/* <section class="legacy-section" style="background-color:#d23527" 
 >
   <h2 class="legacy-heading">A PROFOUND LEGACY</h2>
@@ -666,10 +260,7 @@ background-repeat: repeat; padding: .5rem;"></div>
   </section> */}
   </main>
   {/* End #main */}
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
+  
   {/* <section id="about" class="iconic-life section-padding" >
 
   <div class="row">
@@ -755,8 +346,7 @@ background-repeat: repeat; padding: .5rem;"></div>
 
   </div>
     </section> */}
-  {/*  */}
-  {/*  */}
+  
   {/*  <section id="contact" class="iconic-lif section-padding"   style="padding: 5rem 0rem; background: linear-gradient(120deg, #270047, #9E054F);
   background-size: cover; display: flex;justify-content: center;align-items: center;">
         <div class="container">
@@ -831,50 +421,7 @@ background-repeat: repeat; padding: .5rem;"></div>
         </div>
     </section> */}
   {/* Include Font Awesome CDN in <head> */}
-  <div className="footer-section py-5">
-    <div className="container">
-      <div className="row text-center text-lg-start align-items-center gy-4">
-        <div className="col-lg-4 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-lg-start">
-          <div className="me-md-4 mb-3 mb-md-0">
-            <img
-              src="/img/Final_Logo.png"
-              alt="Kumar Corp Logo"
-              className="img-fluid"
-              style={{ maxWidth: 100 }}
-            />
-          </div>
-          <div className="d-flex align-items-center gap-2">
-            {/* <i class="fas fa-globe fa-lg"></i> */}
-          </div>
-        </div>
-        <div className="col-lg-4 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-lg-start">
-          <div className="me-md-4 mb-3 mb-md-0">
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#worldigo-section">About Us</a>
-              </li>
-              <li>
-                <a href="terms_conditions.php">Terms &amp; Conditions</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-4">
-          <div className="d-flex flex-column align-items-center align-items-lg-end text-center text-lg-end">
-            <div className="footer-note small text-muted">
-              ©&nbsp;2026 Worldigo. All rights reserved.
-            </div>
-            <div className="footer-note small text-muted">
-              Created By Mamta Jain.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   {/* <footer id="footer" class="footer"> */}
   {/* <div class="container">
       <div class="section-title">
@@ -1452,22 +999,7 @@ background-repeat: repeat; padding: .5rem;"></div>
       />
     </svg>
   </a>
-  {/* components JS Files */}
-  {/*  */}
-  {/* Template Main JS File */}
-  {/*  */}
-  {/*  */}
-  {/*  */}
-  {/*  */}
-  {/* <link rel="stylesheet" href="assets/css/intlTelInput.css"> */}
-  {/*?php 
-unset($_SESSION['errors']);
-unset($_SESSION['notmatched']);
-unset($_SESSION['postval']);
-unset($_SESSION['typeofflat1']);
-unset($_SESSION['approxbudget1']);
-// session_destroy();
-?*/}
+ 
 </>
 
     
