@@ -1,7 +1,5 @@
-import React from 'react'
+import ProductSection from "@/components/product/ProductSection";
 
-export default function Product() {
-  return (
-    <div>page</div>
-  )
+export default function ProductPage() {
+  return <ProductSection />;
 }

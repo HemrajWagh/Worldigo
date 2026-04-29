@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Figtree } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Footer from './component/Footer'
-import Header from './component/Header'
-import Content from "./component/Content";
+import Footer from './component/layout/Footer'
+import Header from './component/layout/Header'
+import Content from "./component/layout/Content";
 import Mission from "./component/Mission";
 
 import Link from 'next/link'
@@ -66,7 +66,13 @@ export default function RootLayout({
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   />
 
-        
+    {/* <html lang="en">
+      <body className="bg-white text-black">
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </body>
+    </html> */}
 
       <Header />
       <body className="min-h-full flex flex-col">{children}</body>
