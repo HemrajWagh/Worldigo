@@ -1,10 +1,8 @@
-import ProductSection from "../component/product/ProductSection";
-
+"use client";
 
 export default function Product() {
   return (
     <>
-  <ProductSection />
 
   <main id="main">
     {/* <div className="nav-line" /> */}
@@ -235,7 +233,6 @@ export default function Product() {
   </section> */}
   </main>
   {/* End #main */}
-  
   {/* <section id="about" class="iconic-life section-padding" >
 
   <div class="row">
@@ -248,7 +245,7 @@ export default function Product() {
           </div>
 
 
-        <div class="swiper mySwiper">  
+        <div class="swiper mySwiper">
           <div class="responsive swiper-wrapper">
 
 
@@ -304,7 +301,6 @@ export default function Product() {
                 <img src="./assets/img/cards/Artboard 11.png" alt="Kumar Prithvi" />
               </a>
             </div>
- 
             <div class="swiper-slide detail_slider_col" data-project="Prospera"
            data-url="https://kumarcorp.kumarworld.com/project/kumar-prospera">
               <a href="javascript:void(0);" target="_blank">
@@ -356,7 +352,7 @@ export default function Product() {
                                   </div>
                                   <div class="col-12 form-group">
                                       <select class="form-control custom-select" style="" name="pid2" id="pid2"
-                                          placeholder="Enter Message" > 
+                                          placeholder="Enter Message" >
                                           <option value="">Select Project*</option>
                                           <option value="527663903571816624">Parc Residences</option>
                                           <option value="527663903571816625">Panache</option>
@@ -476,7 +472,7 @@ export default function Product() {
   </div> */}
   {/* <div class="row section-bg pt-5 pb-5">
     <p style="display: flex;margin-top: 2rem;justify-content: center;font-size: xx-large; color:#CE964b;text-align: center;"   >Connect to register with us, <br class="d-none d-lg-block"> and take the first step towards the life you've always dreamt of.</p>
-                                                            
+
     <div class="footer-box d-flex align-items-center justify-content-evenly">
       
        <div class="footer-txt"> 
@@ -803,7 +799,6 @@ export default function Product() {
               className="form-control"
               name="mobile3"
               id="mobile3"
-              
               maxLength={10}
               placeholder="Mobile No."
             />

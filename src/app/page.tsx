@@ -481,7 +481,6 @@ export default function Home() {
   </div> */}
   {/* <div class="row section-bg pt-5 pb-5">
     <p style="display: flex;margin-top: 2rem;justify-content: center;font-size: xx-large; color:#CE964b;text-align: center;"   >Connect to register with us, <br class="d-none d-lg-block"> and take the first step towards the life you've always dreamt of.</p>
-                                                            
     <div class="footer-box d-flex align-items-center justify-content-evenly">
       
        <div class="footer-txt"> 

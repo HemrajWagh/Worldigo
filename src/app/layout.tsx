@@ -70,7 +70,7 @@ export default function RootLayout({
 
         <Mission />
         <Vision/>
-        <Content />
+        {/* <Content /> */}
         <Footer />
       </body>
     </html>

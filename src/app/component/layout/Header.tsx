@@ -6,17 +6,6 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 import React from 'react'
 import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
@@ -51,9 +40,11 @@ export default function Header() {
           <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">
             Home
           </Link>
-          <Link href="/product" className="text-sm font-medium hover:text-primary transition-colors">
+          <a href="/product">Product</a>
+          {/* <Link href="/product">Product</Link> */}
+          {/* <Link href="/product" className="text-sm font-medium hover:text-primary transition-colors">
             Product
-          </Link>
+          </Link> */}
           <Link href="/cart" className="text-sm font-medium hover:text-primary transition-colors">
             Cart
           </Link>
