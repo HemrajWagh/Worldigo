@@ -1,4 +1,3 @@
-import BuyNowCard from "./BuyNowCard";
 
 export default function ProductInfo() {
   return (
@@ -10,8 +9,6 @@ export default function ProductInfo() {
       <p className="text-muted-foreground">
         Explore India in a fun way with friends & family.
       </p>
-
-      <BuyNowCard />
     </div>
   );
 }

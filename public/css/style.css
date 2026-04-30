@@ -1457,7 +1457,7 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   position: relative;
   /*padding: 2vh 2vw;*/
   overflow: hidden;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   backdrop-filter: blur(50px);
   
 }

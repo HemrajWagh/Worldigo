@@ -1,10 +1,7 @@
 "use client";
-import { Content } from "next/font/google";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    // <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
     //   <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
             
     //   </main>
@@ -12,13 +9,10 @@ export default function Home() {
 
     <>
   
-
-  
-  
   
   <main id="main">
   
-    <div className="nav-line" />
+    {/* <div className="nav-line" /> */}
 
     <section id="banner" className="banner">
       <div className="swiper banner-slider">
@@ -32,7 +26,7 @@ export default function Home() {
               />
               <img
                 style={{ position: "relative" }}
-                src="/img/banner/Banner_vert_1.jpg"
+                src="/img/banner/Banner_vert_1.png"
                 className="img-fluid b-block d-lg-none"
                 alt=""
               />
@@ -42,13 +36,11 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="iconic-life">
+    {/* <section className="iconic-life">
       <div className="iconic-container">
-        {/* Image */}
         <div className="iconic-image">
           <img src="/img/banner/cards_1.jpg" alt="World I Go" />
         </div>
-        {/* Content */}
         <div className="iconic-content">
           <div className="game-badge">🎮 Game Experience</div>
           <h1 className="game-main-title">A</h1>
@@ -67,16 +59,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>  
+    </section> */}
 
 
     <section id="worldigo-section" className="worldigo-section">
       <div className="bg-pattern" />
       <div className="worldigo-container">
-        
         <div className="worldigo-grid">
           <div className="worldigo-text">
-             <img src="/img/banner/cards_1.jpg" alt="World I Go" />
+            <img src="/img/banner/cards_1.jpg" alt="World I Go" />
             {/* <h2>About the Game</h2>
             <p>
               World i Go transforms learning into an adventure. Explore India
@@ -90,20 +81,15 @@ export default function Home() {
           <p>Play it. Know it. Win it.</p>
           {/* <h2>Why It’s Different</h2> */}
             <p>
-              " World i Go transforms learning into an adventure.Explore The world through strategy,storytelling and play. From landspaces of culture .food to famous facts,every card and every game Reveals something new !"
-            </p>
+              `&quot` World i Go transforms learning into an adventure.Explore The world through strategy,storytelling and play. From landspaces of culture .food to famous facts,every card and every game Reveals something new `&quot`;</p>
           {/* <a href="#" class="worldigo-btn">Start Your Journey</a> */}
         </div>
-            
           </div>
         </div>
-        
       </div>
     </section>
-    
-    
 
-    <section id="iconic-life" className="iconic-life">
+    {/* <section id="iconic-life" className="iconic-life">
       <div className="iconic-container">
         <div className="state-content">
           <div className="state-list">
@@ -137,11 +123,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* RIGHT: Gallery */}
         <div className="gallery">
           <img src="/img/gallery/Asset 4.png" alt="" />
           <img src="/img/gallery/Asset 6.png" alt="" />
-          <img src="/img/gallery/Asset 7.png" alt="" />
           <img src="/img/gallery/Asset 8.png" alt="" />
           <img src="/img/gallery/Asset 9.png" alt="" />
           <img src="/img/gallery/Asset 10.png" alt="" />
@@ -150,14 +134,13 @@ export default function Home() {
           <img src="/img/gallery/Asset 4.png" alt="" />
         </div>
       </div>
-    </section>
-    <section className="iconic-life">
+    </section> */}
+
+    {/* <section className="iconic-life">
       <div className="iconic-container">
-        {/* Image */}
         <div className="iconic-image">
           <img src="/img/banner/india.png" alt="World I Go" />
         </div>
-        {/* Content */}
         <div className="iconic-content">
           <div className="game-badge">🎮 Game Experience</div>
           <h1 className="game-main-title">GAME ON!</h1>
@@ -176,12 +159,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
-    <section className="pattern-strip" />
-    
-    
-   
+    {/* <section className="pattern-strip" /> */}
     {/* <section class="legacy-section" style="background-color:#d23527" 
 >
   <h2 class="legacy-heading">A PROFOUND LEGACY</h2>
@@ -210,7 +190,7 @@ export default function Home() {
     </div>
   </div>
 </section> */}
-    
+
     {/* <section id="contact-form" class="contact-form section-padding d-none">
     <div class="container">
       <div class="section-title">
@@ -867,7 +847,6 @@ export default function Home() {
               name="message3"
               id="message3"
               placeholder="Enter Message"
-              rows=""
               style={{ padding: "5px 15px" }}
               defaultValue={""}
             />
